@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+.info_cont_h1 {
+	margin-bottom: 20px;
+	padding-bottom: 10px; 
+	width: 700px;
+	border-bottom: 1px #000000 dotted;
+}
+	
+.privacy_policy#main ul li {
+	margin-left: 20px;
+	list-style: circle;
+}
+	
+#main ol {
+	margin-bottom: 20px;	
+}
+
+#main ol li img {
+	margin: 10px 0 15px 130px;
+}
+	
+.sitemap ul {
+	padding: 10px 0;
+	border-bottom: 1px #000000 dotted;
+}
+
+.sitemap ul li {
+	background: url(../images/icon_blue.gif) no-repeat;
+	background-position: left center;
+	padding-left: 9px;
+}
+
+.company table{
+	width: 700px;
+}
+
+.company table th, td {
+	padding: 7px 0;
+	border-bottom: 1px #000000 dotted;
+}
+
+.company table th {
+	width: 150px;
+	text-align: left;
+	background: url(../images/icon_blue.gif) no-repeat;
+	background-position: left center;
+	padding-left: 13px;
+}
+
+.input table {
+	width: 700px;
+	margin: 10px 0; 	
+}
+
+.input th {
+	background: #B8D7E7;
+	border: 1px #6e6e6e solid;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+	
+.input td.input_ex {
+	padding: 5px;
+	background: #eaeaea;
+	color: #666;
+	text-align: center;
+	border:#6e6e6e solid 1px;
+}
+	
+.input img.order {
+	margin-bottom: 10px;
+}
+	
+.input td.form {
+	padding: 10px;
+	color: #666;
+	border: #6e6e6e solid 1px;
+}
+
+.input textarea {
+	font-size: 9pt;
+}
+	
+.agree {
+	width: 440px;
+	padding: 10px;
+	background: #e9e9e9;
+	border: 1px #d8d8d8 solid;
+	float: left;
+}
+	
+.input span {
+	color: #d90033;
+	font-weight: bold;
+	margin-left: 5px;
+}
+	
+.input span.notice {
+	color: #aeaeae;
+	font-weight: normal; 
+	margin-left: 3px;
+}
+	
+.input p.error {
+	color: #d90033;
+}
+	
+.input form input.check {
+	margin: 0 7px 0 10px;
+	vertical-align: middle;
+}
+
+.input h2 {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+table.confirm {
+	width: 700px;
+}
+
+table.confirm th {
+	width: 20%;
+}
+
+.complete .message {
+	margin-top: 50px;
+	text-align: center;
+}
+	
+.complete .message p {
+	margin: 20px 0;
+}
+	
+.product_part {
+	width: 300px;
+	height: 270px;
+	padding: 20px;
+	_padding: 15px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	background: #e9e9e9;
+	border: 1px #d8d8d8 solid;
+	font-size: 9pt;
+	line-height: 120%;
+	float: left;
+}
+
+.product ul li {
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+
+.product a {
+	color: #000000;
+	font-weight: bold;
+}
+	
+.product_part p {
+	margin-top: 8px;
+	font-size: 8pt;
+}
+	
+.sign {
+	text-align: right;
+	float: right;
+	}
+
+.outline {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+To: <%= TO %>
+From: <%= FROM %>
+Subject: Renewal Inquiry
+
+氏名： <%= params['sei'] %> <%= params['mei'] %> (<%= params['sei_furigana'] %> <%= params['mei_furigana'] %>)
+会社名： <%= params['company'] %>
+Webサイト： <%= params['url'] %>
+電話番号： <%= params['tel'] %>
+メールアドレス： <%= params['mail'] %>
+お問い合せ：
+<%= params['message'] %>

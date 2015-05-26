@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url("main.css");
+
+/* 非表示 */
+#header {
+	display:none;
+}
+#navi {
+	display:none;
+}
+
+#footer {
+	display:none;
+}
+.pankuzu {
+	display:none;
+}
+
+#content {
+	border: hidden;
+	}
+
+/* 非表示 end */
+
+#wrapper {
+	width:100%;
+}
