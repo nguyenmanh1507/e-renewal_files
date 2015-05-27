@@ -1,0 +1,107 @@
+
+img {
+	max-width: 100%;
+}
+
+#header {
+	/*max-width: 970px;
+	width: 100%;*/
+}
+
+/* Wrapper */
+#wrapper {
+	/*max-width: 970px;
+	width: 100%;*/
+}
+
+/* Content */
+#content {
+/*	max-width: 900px;
+	width: 100%;*/
+}
+
+/* Main */
+#main {
+/*	max-width: 700px;
+	width: 78%;*/
+}
+
+/* Side */
+#side {
+/*	max-width: 170px;
+	width: 19%;*/
+}
+
+/* P Part */
+.p_part {
+	/*max-width: 220px;*/
+}
+
+@media screen and (max-width: 980px) {
+	*,
+	*:before,
+	*:after {
+		box-sizing: border-box;
+	}
+
+	html, 
+	body {
+		overflow-x: hidden;
+		background: none;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	/* HEADER
+	================================================== */
+	#header {
+		width: 100%;
+	}
+
+	/* CONTENT
+	================================================== */
+	#content {
+		border-left: 0;
+		border-right: 0;
+		padding: 10px 10px 30px;
+		width: 100%;
+	}
+
+	/* Main */
+	#main {
+		width: 80%;
+	}
+
+	/* Side */
+	#side {
+		width: 20%;
+	}
+
+	.p_part, .p_part_center {
+		width: 30%;
+	}
+}
+
+@media  screen and (max-width: 768px) {
+	
+	/* CONTENT
+	================================================== */
+	
+	/* Main */
+	#main {
+		width: 100%;
+		float: none;
+		border-right: 0;
+		padding: 0;
+	}
+
+	/* Side */
+	#side {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+
+}
