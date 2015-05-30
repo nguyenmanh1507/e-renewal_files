@@ -358,6 +358,11 @@ img {
 	display:none;
 }
 
+/* lpo/index.html */
+.system_1 .main_img {
+	display: none;
+}
+
 @media screen and (max-width: 980px) {
 	*,
 	*:before,
@@ -466,7 +471,7 @@ img {
 	}
 
 	.slicknav_btn {
-		margin-top: 16px;
+		margin: 23px 16px 0 0;
 	}
 
 	#sub_navi,
@@ -504,6 +509,31 @@ img {
 
 	.bother_list li {
 		padding: 1% 7%;
+	}
+ 
+}
+
+@media screen and (max-width: 901px) {
+	
+	/* CONTENT
+	================================================== */
+
+	/* Main */
+	/* lpo/index.html */
+	.main_img {
+		width: 40%;
+	}
+
+	.system_1 {
+		width: 60%;
+	}
+
+	.lpo_img {
+		width: 30%;
+	}
+
+	.system_2 {
+		width: 68%;
 	}
 
 }
@@ -697,6 +727,38 @@ img {
 		width: 220px;
 		float: none;
 		margin: 0 auto 20px;
+	}
+
+	/* lpo/index.html */
+	.main_img {
+		display: none;
+	}
+
+	.system_1 {
+		max-width: 100%;
+		width: 100%;
+		padding-left: 0;
+		float: none;
+	}
+	
+	.system_1 .main_img {
+		display: block;
+		margin-right: 2%;
+		height: 310px;
+	}
+
+	.lpo_img,
+	.system_2 {
+		width: 100%;
+	}
+
+	.lpo_img img {
+		width: 48%;
+		float: left;
+	}
+
+	.lpo_img img:first-child {
+		margin-right: 4%;
 	}
 
 }
