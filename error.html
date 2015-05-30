@@ -99,12 +99,13 @@
                 <th>氏名<br>
                 <span>*必須</span></th>
 
-                <td class="input_ex">例：鈴木　太郎<br>
-                （スズキ　タロウ）</td>
+                <!-- <td class="input_ex">例：鈴木　太郎<br>
+                （スズキ　タロウ）</td> -->
 
                 <td class="form">
-                  <input maxlength="15" name="sei" size="20" type="text"> <input maxlength="15" name="mei" size="20" type="text"><span>！</span><br>
-                  フリガナ（<input maxlength="15" name="sei_fufigana" size="20" type="text"> <input maxlength="15" name="mei_furigana" size="20" type="text">）<span>！</span><span class="notice">全角カタカナ</span>
+                  <input maxlength="15" name="sei" size="20" type="text" placeholder="鈴木"> 
+                  <input maxlength="15" name="mei" size="20" type="text" placeholder="太郎"><span>！</span><br>
+                  フリガナ（<input maxlength="15" name="sei_fufigana" size="20" type="text" placeholder="スズキ"> <input maxlength="15" name="mei_furigana" size="20" type="text" placeholder="タロウ">）<span>！</span><span class="notice">全角カタカナ</span>
 
                   <p class="error">※氏名は必須項目です。</p>
 
@@ -117,19 +118,19 @@
               <tr>
                 <th>会社名</th>
 
-                <td class="input_ex">例：メディアマックス<br>
-                ジャパン株式会社</td>
+                <!-- <td class="input_ex">例：メディアマックス<br>
+                ジャパン株式会社</td> -->
 
-                <td class="form"><input maxlength="50" name="company" size="40" type="text"></td>
+                <td class="form"><input maxlength="50" name="company" size="40" type="text" placeholder="メディアマックスジャパン株式会社"></td>
               </tr>
 
               <tr>
                 <th>Webサイト</th>
 
-                <td class="input_ex">例：http://www.mmj.ne.jp</td>
+                <!-- <td class="input_ex">例：http://www.mmj.ne.jp</td> -->
 
                 <td class="form">
-                  <input maxlength="50" name="url" size="40" type="text"><span>！</span><span class="notice">半角英数字</span>
+                  <input maxlength="50" name="url" size="40" type="text" placeholder="http://www.mmj.ne.jp"><span>！</span><span class="notice">半角英数字</span>
 
                   <p class="error">※URLは半角英数字でご入力ください。</p>
                 </td>
@@ -138,10 +139,10 @@
               <tr>
                 <th>電話番号</th>
 
-                <td class="input_ex">例：075-771-2881</td>
+                <!-- <td class="input_ex">例：075-771-2881</td> -->
 
                 <td class="form">
-                  <input maxlength="15" name="tel" size="40" type="text"><span>！</span><span class="notice">半角・ハイフンつき</span>
+                  <input maxlength="15" name="tel" size="40" type="text" placeholder="075-771-2881"><span>！</span><span class="notice">半角・ハイフンつき</span>
 
                   <p class="error">※電話番号は半角英数字でご入力ください。</p>
 
@@ -153,10 +154,10 @@
                 <th>メールアドレス<br>
                 <span>*必須</span></th>
 
-                <td class="input_ex">例：info@mmj.ne.jp</td>
+                <!-- <td class="input_ex">例：info@mmj.ne.jp</td> -->
 
                 <td class="form">
-                  <input maxlength="80" name="e-mail" size="40" type="text"><span>！</span><span class="notice">半角英数字</span>
+                  <input maxlength="80" name="e-mail" size="40" type="text" placeholder="info@mmj.ne.jp"><span>！</span><span class="notice">半角英数字</span>
 
                   <p class="error">※メールアドレスは必須項目です。</p>
 
@@ -168,7 +169,7 @@
                 <th>お問合わせ内容<br>
                 <span>*必須</span></th>
 
-                <td class="form" colspan="2">
+                <td class="form">
                   <textarea cols="75" name="message" rows="8"></textarea>
 
                   <p class="error">※お問合わせ内容は必須項目です。</p>

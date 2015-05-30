@@ -510,8 +510,9 @@ img {
 	================================================== */
 
 	/* Main */
-	/* company.html */
-	.company table {
+	/* company.html, error.html */
+	.company table,
+	.input table {
 		width: 100%;
 	}
 
@@ -563,9 +564,18 @@ img {
 		width: 68%;
 	}
 
+	/* confirm.html, error.html */
+	#inquiry ~ input,
+	.inquiry ~ input {
+		float: left;
+		display: block;
+		clear: both;
+		margin-top: 15px;
+	}	
 
-	/* promotion/index.html */
-	
+	.agree {
+		width: 100%;
+	}
 
 }
 
@@ -730,6 +740,13 @@ img {
 	table.confirm th {
 		width: 30%;
 	}
+
+	/* confirm, error.html */
+	.input th,
+	.input td.form {
+		display: block;
+	}
+
 	
 	/* FOOTER
 	================================================== */
@@ -749,6 +766,14 @@ img {
 
 @media screen and (max-width: 534px) {
 	
+	/* CONTENT
+	================================================== */
+	/* error.html */
+	.input textarea {
+		width: 100%;
+	}
+	
+
 	/* FOOTER
 	================================================== */
 	
@@ -843,13 +868,18 @@ img {
 		display: block;
 	}
 
+	/* error.html */
+	table.inquiry > tbody > tr:nth-child(n+2) input {
+		width: 80%;
+	}
+
 }
 
 @media screen and (max-width: 360px) {
 	
-	#inquiry ~ input {
-		float: left;
-	}
+	/* CONTENT
+	================================================== */
+	
 
 }
 
