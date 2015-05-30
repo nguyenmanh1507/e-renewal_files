@@ -501,6 +501,15 @@ img {
 		text-align: center;
 	}
 
+	/* CONTENT
+	================================================== */
+
+	/* Main */
+	/* company.html */
+	.company table {
+		width: 100%;
+	}
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 906px) {
@@ -790,6 +799,26 @@ img {
 
 	.lpo_img img:first-child {
 		margin-right: 4%;
+	}
+
+	/* company.html */
+	.company table {
+		margin-top: 15px;
+	}
+
+	.company table th,
+	.company table td {
+		width: 100%;
+		display: block;
+		border: none;
+	}
+
+	.company table th {
+		border-top: 1px dotted #000000;
+	}
+
+	.company table tr:last-child td {
+		border-bottom: 1px dotted #000000;
 	}
 
 }
