@@ -438,6 +438,11 @@ img {
 		width: auto;
 	}
 
+	/* confirm.html */
+	table.confirm {
+		width: 100%;
+	}
+
 	/* FOOTER
 	================================================== */
 
@@ -717,7 +722,14 @@ img {
 		text-align: left;
 		clear: both;
 	}
-	
+
+
+	/* CONTENT
+	================================================== */
+	/* confirm.html */
+	table.confirm th {
+		width: 30%;
+	}
 	
 	/* FOOTER
 	================================================== */
@@ -819,6 +831,24 @@ img {
 
 	.company table tr:last-child td {
 		border-bottom: 1px dotted #000000;
+	}
+
+	/* confirm.html */
+	table.confirm th {
+		display: block;
+		width: 100%;
+	}
+
+	.input td.form {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	
+	#inquiry ~ input {
+		float: left;
 	}
 
 }
