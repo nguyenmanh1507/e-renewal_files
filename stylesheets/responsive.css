@@ -363,6 +363,19 @@ img {
 	display: none;
 }
 
+/* promotion/index.html */
+.img_p p {
+	width: 100%;
+}
+
+.img_p p img.fl {
+	margin-right: 20px;
+}
+
+.img_p p img.fr {
+	margin-left: 20px;
+}
+
 @media screen and (max-width: 980px) {
 	*,
 	*:before,
@@ -536,6 +549,10 @@ img {
 		width: 68%;
 	}
 
+
+	/* promotion/index.html */
+	
+
 }
 
 @media  screen and (max-width: 768px) {
@@ -581,6 +598,16 @@ img {
 
 	.side_product {
 		display: none;
+	}
+
+	/* promotion/index.html */
+
+	.img_p p img.fl {
+		margin-right: 2%;
+	}
+
+	.img_p p img.fr {
+		margin-left: 2%;
 	}
 
 	/* FOOTER 
@@ -748,7 +775,7 @@ img {
 	.system_1 .main_img {
 		display: block;
 		margin-right: 2%;
-		height: 310px;
+		height: auto;
 	}
 
 	.lpo_img,
