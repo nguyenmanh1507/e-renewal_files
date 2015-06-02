@@ -168,15 +168,20 @@
 /* General
 ================================================== */
 /* Super Professional */
-.super_professional > h2 {
+.super_professional > h2,
+.service_cont_part > h2 {
 	box-sizing: border-box;
-	height: 50px;
+	min-height: 50px;
 	max-width: 700px;
 	font-size: 16px;
 	font-weight: bold;
-	background: url(../images/super_professional_heading_bg.png) no-repeat left top;
-	background-size: cover;
-	padding: 16px 0 0 65px;
+	background: url(../images/heading_bg_pattern.png), url(../images/eject.png);
+	background-color: #ececec;
+	background-repeat: repeat, no-repeat;
+	background-position: left top, 20px center;
+	border: 1px solid #bcbcbc;
+	box-shadow: inset 0px 0px 2px 3px rgba(255, 255, 255, 0.5);
+	padding: 1em 1em 1em 4.06em;
 }
 
 /* Paragraph part */
@@ -193,7 +198,7 @@
 .paragraph .title1,
 .paragraph .title2 {
 	min-height: 205px;
-	/*height: auto;*/
+	height: auto;
 }
 
 .p_part, .p_part_center {
@@ -313,6 +318,7 @@
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 /* Mobile Nav */
@@ -356,6 +362,12 @@ img {
 /* Fix font-size(x-small) on chrome */
 .footer_text {
 	font-size: 8.5px;
+}
+
+/* Add float right for copyright text */
+.copyright {
+	text-align: right;
+	font-size: 10px;
 }
 
 @media screen and (max-width: 980px) {
@@ -604,7 +616,6 @@ img {
 	#main > img, 
 	.img-fullwidth {
 		width: 100%;
-		height: auto;
 	}
 
 	.one_stop {
