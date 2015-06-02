@@ -750,8 +750,23 @@ img {
 
 @media screen and (max-width: 645px) {
 
+	/* GENERAL
+	================================================== */
+
+	body {
+		font-size: 16px;
+	}
+
+	header, footer {
+		font-size: 12px;
+	}
+
 	/* HEADER
 	================================================== */
+	#header .logo {
+		text-align: left;
+	}
+
 	#header > h1 {
 		width: 80%;
 		float: left;
@@ -819,17 +834,6 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-
-	/* GENERAL
-	================================================== */
-
-	body {
-		font-size: 16px;
-	}
-
-	header, footer {
-		font-size: 12px;
-	}
 	
 	/* CONTENT
 	================================================== */
